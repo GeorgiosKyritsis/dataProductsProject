@@ -124,7 +124,8 @@ shinyUI(fluidPage(
         tabPanel('Beta Distribution', plotOutput('myplot5')),
         tabPanel('Gamma Distribution', plotOutput('myplot6')),
         tabPanel('Poisson Distribution', plotOutput('myplot7')),
-        tabPanel('Geometric Distribution', plotOutput('myplot8'))
+        tabPanel('Geometric Distribution', plotOutput('myplot8')),
+        p("Please consult the documentation file if you need help using the App:",a("documentation.html",href="documentation.html"))
       )
     )
   )
